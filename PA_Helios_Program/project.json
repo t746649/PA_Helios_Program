@@ -1,0 +1,37 @@
+{
+  "name": "PA_Helios_Program",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "FinanceTnNLibrary": "[1.0.8839.22938]",
+    "UiPath.Excel.Activities": "[2.22.3]",
+    "UiPath.Mail.Activities": "[1.22.2]",
+    "UiPath.System.Activities": "[21.4.1]",
+    "UiPath.UIAutomation.Activities": "[21.4.4]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.4.1.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfoCollection": []
+  },
+  "expressionLanguage": "VisualBasic"
+}
